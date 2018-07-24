@@ -2,8 +2,7 @@ package com.api.utils.mavenutils;
 
 import android.app.Activity;
 import android.os.Bundle;
-
-import com.api.utils.mutils.RandomUtil;
+import android.util.Log;
 
 public class MainActivity extends Activity {
 
@@ -12,5 +11,6 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 //        RandomUtil.rand()
+        Log.i("sdk","start");
     }
 }
